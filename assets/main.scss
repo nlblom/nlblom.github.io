@@ -3,5 +3,10 @@
 
 @import "minima";
 
+/* Make overall content wider */
+.wrapper {
+  max-width: 1200px;
+}
+
 /* Hide the entire footer */
 .site-footer { display: none; }
