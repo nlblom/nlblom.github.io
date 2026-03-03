@@ -1,32 +1,91 @@
 ---
-layout: page
+layout: default
 permalink: /
 ---
 
 <style>
-  .home-wrap { display: flex; align-items: center; gap: 60px; }
-  .home-left { text-align: center; min-width: 260px; }
-  .home-right { max-width: 650px; }
+  .hero {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-left img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero-name {
+    margin: 22px 0 10px 0;
+    font-size: 44px;
+    line-height: 1.05;
+    font-weight: 700;
+  }
+
+  .hero-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 0 6px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .hero-right {
+    padding-left: 60px;
+    border-left: 1px solid #e6e6e6;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .hero-right p { margin: 0 0 18px 0; }
+
   @media (max-width: 900px) {
-    .home-wrap { flex-direction: column; gap: 30px; }
-    .home-left { min-width: auto; }
+    .hero {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      margin: 24px auto;
+    }
+    .hero-right {
+      border-left: none;
+      padding-left: 0;
+    }
+    .hero-name { font-size: 34px; }
+    .hero-left img { width: 200px; height: 200px; }
   }
 </style>
 
-<div class="home-wrap">
+<div class="hero">
 
-  <div class="home-left">
-    <img src="/assets/cv_photo.jpg" width="220" style="border-radius: 50%;">
-    <h2 style="margin-top: 20px;">Niels Blom</h2>
+  <div class="hero-left">
+    <img src="/assets/cv_photo.jpg" alt="Profile photo">
 
-    <div style="margin-top: 10px;">
-      <a href="mailto:niels4blom@gmail.com" style="margin: 0 8px;">Email</a>
-      <a href="https://www.linkedin.com/in/niels-blom-706125241/" style="margin: 0 8px;">LinkedIn</a>
-      <a href="https://github.com/nlblom" style="margin: 0 8px;">GitHub</a>
+    <div class="hero-name">Niels Blom</div>
+
+    <div class="hero-links">
+      <a href="mailto:niels4blom@gmail.com" aria-label="Email">✉</a>
+      <a href="https://www.linkedin.com/in/niels-blom-706125241/" aria-label="LinkedIn">in</a>
+      <a href="https://github.com/nlblom" aria-label="GitHub">⌂</a>
     </div>
   </div>
 
-  <div class="home-right">
+  <div class="hero-right">
     <p>
       Hi! I am currently pursuing a one-year MSc in Data Science at University College London. In June 2025, I graduated from Erasmus University Rotterdam with a BSc in Econometrics and Operations Research, including a major in quantitative finance, and a minor in Engineering with AI at TU Delft.
     </p>
