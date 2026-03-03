@@ -5,7 +5,7 @@ title: Portfolio
 
 ## Quantitative Finance & Forecasting
 
-### Option-Driven Improvements in Volatility Forecasting  
+### [Option-Driven Improvements in Volatility Forecasting](https://nlblom.github.io/assets/volatility-forecasting.pdf)
 Incorporated option-implied information into point and density volatility forecasts for the S&P 500, demonstrating out-of-sample gains and improved forecast uncertainty under relaxed distributional assumptions.  
 [View project](https://nlblom.github.io/assets/volatility-forecasting.pdf)
 
