@@ -1,3 +1,8 @@
 theme: minima
 title: Niels Blom
 description: Quantitative Finance & Data Science portfolio
+
+header_pages:
+  - index.md
+  - portfolio.md
+  - cv.md
