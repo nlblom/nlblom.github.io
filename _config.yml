@@ -7,5 +7,3 @@ header_pages:
   - portfolio.md
   - cv.md
 
-minima:
-  skin: classic
