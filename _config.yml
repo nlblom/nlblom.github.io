@@ -6,3 +6,6 @@ header_pages:
   - index.md
   - portfolio.md
   - cv.md
+
+minima:
+  skin: classic
