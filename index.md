@@ -5,20 +5,22 @@ permalink: /
 
 <style>
   .hero {
-    max-width: 900px;           /* narrower overall, fits Minima nicely */
-    margin: 40px auto;
+    max-width: 1150px;      /* much broader */
+    margin: 60px auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: 320px 1fr;  /* smaller left column */
-    gap: 40px;                  /* smaller gap */
-    align-items: center;
+    grid-template-columns: 360px 1fr;
+    gap: 60px;
+    align-items: start;
   }
 
-  .hero-left { text-align: center; }
+  .hero-left {
+    text-align: center;
+  }
 
   .hero-left img {
-    width: 220px;
-    height: 220px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
@@ -26,9 +28,8 @@ permalink: /
   }
 
   .hero-name {
-    margin: 18px 0 10px 0;
-    font-size: 40px;
-    line-height: 1.05;
+    margin: 22px 0 10px 0;
+    font-size: 42px;
     font-weight: 700;
   }
 
@@ -36,8 +37,8 @@ permalink: /
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     margin: 0 6px;
     border: 1px solid #d0d0d0;
     border-radius: 8px;
@@ -46,21 +47,20 @@ permalink: /
   }
 
   .hero-right {
-    padding-left: 40px;          /* smaller padding */
+    padding-left: 60px;
     border-left: 1px solid #e6e6e6;
-    font-size: 16px;             /* back to normal */
-    line-height: 1.7;
+    font-size: 17px;
+    line-height: 1.8;
   }
 
-  .hero-right p { margin: 0 0 16px 0; }
+  .hero-right p { margin: 0 0 18px 0; }
 
-  /* Stack layout earlier so text never becomes a skinny column */
-  @media (max-width: 1050px) {
+  @media (max-width: 1100px) {
     .hero {
       grid-template-columns: 1fr;
-      gap: 26px;
-      margin: 24px auto;
+      gap: 30px;
     }
+
     .hero-right {
       border-left: none;
       padding-left: 0;
