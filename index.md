@@ -16,7 +16,7 @@ permalink: /
 <div class="home-wrap">
 
   <div class="home-left">
-    <img src="/assets/profile.jpg" width="220" style="border-radius: 50%;">
+    <img src="/assets/cv_photo.jpg" width="220" style="border-radius: 50%;">
     <h2 style="margin-top: 20px;">Niels Blom</h2>
 
     <div style="margin-top: 10px;">
