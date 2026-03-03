@@ -5,22 +5,20 @@ permalink: /
 
 <style>
   .hero {
-    max-width: 1150px;      /* much broader */
-    margin: 60px auto;
+    max-width: 1200px;
+    margin: 50px auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: 360px 1fr;
-    gap: 60px;
+    grid-template-columns: 320px 1fr; /* smaller left -> wider text */
+    gap: 50px;
     align-items: start;
   }
 
-  .hero-left {
-    text-align: center;
-  }
+  .hero-left { text-align: center; }
 
   .hero-left img {
-    width: 240px;
-    height: 240px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
@@ -28,8 +26,9 @@ permalink: /
   }
 
   .hero-name {
-    margin: 22px 0 10px 0;
-    font-size: 42px;
+    margin: 20px 0 10px 0;
+    font-size: 40px;
+    line-height: 1.05;
     font-weight: 700;
   }
 
@@ -47,20 +46,22 @@ permalink: /
   }
 
   .hero-right {
-    padding-left: 60px;
+    padding-left: 40px;          /* less padding -> more text width */
     border-left: 1px solid #e6e6e6;
-    font-size: 17px;
-    line-height: 1.8;
+
+    /* Force normal text sizing */
+    font-size: 16px;
+    line-height: 1.7;
   }
 
-  .hero-right p { margin: 0 0 18px 0; }
+  .hero-right p { margin: 0 0 16px 0; }
 
   @media (max-width: 1100px) {
     .hero {
       grid-template-columns: 1fr;
-      gap: 30px;
+      gap: 28px;
+      margin: 28px auto;
     }
-
     .hero-right {
       border-left: none;
       padding-left: 0;
