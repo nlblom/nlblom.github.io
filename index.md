@@ -78,9 +78,9 @@ permalink: /
     <div class="hero-name">Niels Blom</div>
 
     <div class="hero-links">
-      <a href="mailto:niels4blom@gmail.com" aria-label="Email">✉</a>
-      <a href="https://www.linkedin.com/in/niels-blom-706125241/" aria-label="LinkedIn">in</a>
-      <a href="https://github.com/nlblom" aria-label="GitHub">⌂</a>
+      <a href="mailto:niels4blom@gmail.com">✉</a>
+      <a href="https://linkedin.com/in/YOURPROFILE">in</a>
+      <a href="https://github.com/nlblom">GH</a>
     </div>
   </div>
 
