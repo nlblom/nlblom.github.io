@@ -120,7 +120,7 @@ permalink: /
     </p>
 
     <p>
-      I focus on quantitative modelling and decision-making under uncertainty, with applications in financial markets and strategic contexts. My work has been mainly centered around density forecasting, portfolio evaluation, time-series econometrics and panel data analysis. I am proficient in Python, R, Matlab, Java and AIMMS.
+      I focus on quantitative modelling and decision-making under uncertainty, with applications in financial markets and strategic contexts. My work has been mainly centered around density forecasting, bayesian statistics, time-series econometrics and panel data analysis. I am proficient in Python, R, Matlab, Java and AIMMS.
     </p>
 
     <p>
