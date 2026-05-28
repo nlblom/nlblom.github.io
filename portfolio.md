@@ -2,6 +2,8 @@
 layout: page
 title: Portfolio
 ---
+### [High-Dimensional Bayesian Forecast Combination]
+*MSc Thesis (in progress)*
 
 ### [Option-Driven Improvements in Volatility Forecasting (BSc Thesis)](https://nlblom.github.io/assets/volatility-forecasting.pdf)
 Incorporated option-implied information into point and density volatility forecasts for the S&P 500, demonstrating out-of-sample gains and improved forecast uncertainty under relaxed distributional assumptions.  
