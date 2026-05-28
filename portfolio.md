@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 ---
-### [High-Dimensional Bayesian Forecast Combination]
+### High-Dimensional Bayesian Forecast Combination
 *MSc Thesis (in progress)*
 
 ### [Option-Driven Improvements in Volatility Forecasting (BSc Thesis)](https://nlblom.github.io/assets/volatility-forecasting.pdf)
