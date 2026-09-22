@@ -2,8 +2,8 @@
 layout: page
 title: Portfolio
 ---
-### High-Dimensional Bayesian Forecast Combination
-*MSc Thesis (in progress)*
+### [High-Dimensional Bayesian Forecast Combination (MSc Thesis)](https://nlblom.github.io/assets/report_RRBL3.pdf)
+Combined point forecasts from multiple forecasters into a single predictive distribution using a Bayesian graphical lasso prior on the forecasters' precision matrix, reducing mean squared forecast error to about 14% of the sample-covariance benchmark in an application to the ECB Survey of Professional Forecasters.
 
 ### [Option-Driven Improvements in Volatility Forecasting (BSc Thesis)](https://nlblom.github.io/assets/volatility-forecasting.pdf)
 Incorporated option-implied information into point and density volatility forecasts for the S&P 500, demonstrating out-of-sample gains and improved forecast uncertainty under relaxed distributional assumptions.  
