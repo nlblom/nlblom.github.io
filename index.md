@@ -95,7 +95,7 @@ permalink: /
 <div class="hero">
 
   <div class="hero-left">
-    <img src="/assets/cv_photo.jpg" alt="Profile photo">
+    <img src="/assets/cv_photo.png" alt="Profile photo">
 
     <div class="hero-name">Niels Blom</div>
 
